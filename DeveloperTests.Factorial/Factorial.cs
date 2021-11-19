@@ -4,6 +4,7 @@ namespace DeveloperTests.Factorial
 {
     /*
      * Implement a method that calculates the factorial value of a positive integer
+     * 4! = 4*3*2*1 = 24
      */
     public static class Factorial
     {
