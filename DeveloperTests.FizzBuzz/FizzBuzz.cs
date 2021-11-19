@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Text;
 
-namespace DeveloperTests.Part1
+namespace DeveloperTests.FizzBuzz
 {
-    public class Program
+    public static class FizzBuzz
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            var result = WriteFizzBuzz();
-            Console.WriteLine(result);
+            Console.WriteLine(WriteFizzBuzz());
+            Console.ReadKey();
         }
 
         public static string WriteFizzBuzz()
@@ -33,7 +33,7 @@ namespace DeveloperTests.Part1
                     sb.Append(i);
                 }
             }
-            
+
             return sb.ToString();
         }
     }
