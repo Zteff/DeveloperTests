@@ -1,8 +1,15 @@
 ﻿using System;
-using System.Text;
 
 namespace DeveloperTests.FizzBuzz
 {
+    /*
+     * Write a method that counts from 1 to 100.
+     * For each value print it to the console
+     * If the value is divisible by 3, then print Fizz instead of the value
+     * If the value is divisible by 5, then print Buzz instead of the value
+     * If the value is divisible by 3 and 5, then print FizzBuzz instead of the value
+     * Eg: 12Fizz4BuzzFizz78FizzBuzz11Fizz1314FizzBuzz....
+     */
     public static class FizzBuzz
     {
         public static void Main()
@@ -13,28 +20,7 @@ namespace DeveloperTests.FizzBuzz
 
         public static string WriteFizzBuzz()
         {
-            var sb = new StringBuilder();
-            for (int i = 1; i <= 100; i++)
-            {
-                var threeRemainder = i % 3;
-                var sixRemainder = i % 5;
-                if (threeRemainder == 0)
-                {
-                    sb.Append("Fizz");
-                }
-
-                if (sixRemainder == 0)
-                {
-                    sb.Append("Buzz");
-                }
-
-                if (threeRemainder != 0 && sixRemainder != 0)
-                {
-                    sb.Append(i);
-                }
-            }
-
-            return sb.ToString();
+            return "";
         }
     }
 }
