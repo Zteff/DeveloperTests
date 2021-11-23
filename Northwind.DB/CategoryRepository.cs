@@ -26,5 +26,10 @@ namespace Northwind.DB
                 return connection.Query<Category>(sql);
             }
         }
+
+        public Category GetCategory(int id)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

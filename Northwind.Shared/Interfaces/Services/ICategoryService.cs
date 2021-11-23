@@ -6,5 +6,6 @@ namespace Northwind.Shared.Interfaces.Services
     public interface ICategoryService
     {
         IEnumerable<Category> GetAllCategories();
+        Category GetCategory(int id);
     }
 }

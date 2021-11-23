@@ -18,5 +18,10 @@ namespace Northwind.Services
         {
             return _repos.GetAllCategories();
         }
+
+        public Category GetCategory(int id)
+        {
+            return _repos.GetCategory(id);
+        }
     }
 }

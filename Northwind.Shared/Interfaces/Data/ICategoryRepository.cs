@@ -6,5 +6,6 @@ namespace Northwind.Shared.Interfaces.Data
     public interface ICategoryRepository
     {
         IEnumerable<Category> GetAllCategories();
+        Category GetCategory(int id);
     }
 }
