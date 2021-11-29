@@ -23,3 +23,6 @@ Eg: 4! = 4*3*2*1 = 24
 ## Northwind SQL
 * Write a query that returns all customers that have bought the product 'Aniseed Syrup'
 * Write a query that returns a list of all the orders that 'LINO-Delicateses' has made with the total of each order
+
+## LINQ
+1. 
